@@ -1,0 +1,39 @@
+---
+title: "new_prof_data CODEBOOK"
+author: "Konstantin Tskhay"
+date: "September 25, 2015"
+output: html_document
+---
+
+### Description
+
+The variables in the dataset represent the aggregate evaluations of each University of Toronto professor by their students across multiple classes. This is just a demonstration dataset. The data were collected from the Anti-Caledar (2010-2012), avaliable here:
+
+http://assu.ca/anti-calendar/
+
+Important note: these professors are not representative of all UofT professors, only those who have responded to survey request. 
+
+### Variables and Descriptions:
+
+1. **ID** = Observation ID
+2. **Prof.Name** = The name of the professor. Here, Name 1-213 is used
+3. **Present** = "Presents the material in an organized, well-planned manner."
+4. **Explain** = "Explains concepts clearly and with appropriate use of examples."
+5. **Communi** = "Communicates enthusiasm and interest in the course material."
+6. **Teach** = "All things considered, performs effectively as a university teacher."
+7. **Workload** = "Compared to other courses at the same level, the workload is…"
+8. **Difficulty** = "Compared to other courses at the same level, the level of difficulty of the material is…"
+9. **learn.Exp** = "The value of the overall learning experience is…"
+10. **Retake** = "Considering your experience with this course, and disregarding your need for it to meet program or degree requirements, would you still have taken this course?"
+11. **Inf.** = The aggregate influence score (Interpersonal Charisma Scale)
+12. **Kind** = The aggregate kindness score (Interpersonal Charisma Scale)
+
+*Notes.*
+
+Q3-Q6 scale: 1 = extremely poor; 2 = very poor; 3 = poor; 4 = adequate; 5 = good; 6 = very good; 7 = outstanding
+
+Q7-Q9 scale: 1 = very low; 2 = low; 3 = below average; 4 = average; 5 = above average; 6 = high; 7 = very high
+
+Q10 scale: proportion of people out of 100 who would still take the course considering the experience
+
+Q11-Q12 scale: "I am someone who is..."; 1 = strongly disagree; 2 = moderately disagree; 3 = neither agree nor disagree; 4 = moderately agree; 5 = strongly agree
